@@ -1,0 +1,15 @@
+# tk pkg-config source file
+
+prefix=/Users/anuragsingh/Desktop/Project/project_end_to_end/ml-pipeline2023/venv
+exec_prefix=/Users/anuragsingh/Desktop/Project/project_end_to_end/ml-pipeline2023/venv
+libdir=/Users/anuragsingh/Desktop/Project/project_end_to_end/ml-pipeline2023/venv/lib
+includedir=${prefix}/include
+
+Name: The Tk Toolkit
+Description: Tk is a cross-platform graphical user interface toolkit, the standard GUI not only for Tcl, but for many other dynamic languages as well.
+URL: https://www.tcl-lang.org/
+Version: 8.6.12
+Requires: tcl >= 8.6
+Libs: -L${libdir} -ltk8.6 -ltkstub8.6
+Libs.private:  
+Cflags: -I${includedir}
