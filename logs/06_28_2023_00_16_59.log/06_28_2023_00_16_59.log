@@ -1,0 +1,8 @@
+[2023-06-28 00:16:59,039] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-06-28 00:16:59,039] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-06-28 00:16:59,040] 187 werkzeug - INFO -  * Restarting with stat
+[2023-06-28 00:16:59,132] 187 werkzeug - WARNING -  * Debugger is active!
+[2023-06-28 00:16:59,137] 187 werkzeug - INFO -  * Debugger PIN: 844-047-205
+[2023-06-28 00:17:05,596] 14 root - INFO - error occured in python script name [/Users/anuragsingh/Desktop/Project/project_end_to_end/ml-pipeline2023/app.py] line number [11] error message [We are testing second message of logging]
+[2023-06-28 00:17:05,597] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 00:17:05] "GET / HTTP/1.1" 200 -
